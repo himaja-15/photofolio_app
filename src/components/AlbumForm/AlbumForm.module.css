@@ -1,0 +1,39 @@
+.inputField{
+    width: 45%;
+    /* margin: 0 2%; */
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.inputField:hover{
+    border: none;
+}
+.formBtn{
+    width: 100px;
+    margin: 0 1%;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    border:none;
+    border-radius: 5px;
+}
+.clearBtn{
+    background-color:#FF1300;
+}
+.SubmitBtn{
+    background-color:#139156;
+}
+.albumFormContainer {
+    /* border: 1px solid pink; */
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    width: 50%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-self: center;
+    
+}

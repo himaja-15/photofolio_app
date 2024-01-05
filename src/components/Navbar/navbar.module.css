@@ -1,0 +1,21 @@
+.navbarImg{
+    /* width: 100%; */
+    /* background-color: rgb(240, 240, 20); */
+    /* background-color: blueviolet; */
+    height: 50px;
+  }
+.navbarHeader{
+  width: 100%; 
+  background-color: #a0a0f9;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 60px;
+}
+.navbarHeader span{
+  padding: 10px;
+  font-weight: 800;
+  font-size: 1.2rem;
+}

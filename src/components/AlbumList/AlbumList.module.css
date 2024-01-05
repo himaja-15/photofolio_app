@@ -1,0 +1,58 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer > div{
+    width: 75%;
+    margin-top: 20px;
+}
+.albumForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    /* align-items: center; */
+    align-self: center;
+}
+
+
+.header span{
+    float: left;
+    /* margin-left: 30%; */
+    /* font-size: medium; */
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+}
+/* .header span:hover{
+    
+} */
+.albumContainer{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+.btn{
+    margin-top: 10px;
+    float: right;
+    height: 31px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+   
+}
+.cancelBtn{
+      background-color: rgba(255,19,0,.1); 
+  color: #f44336;
+  border: 2px solid #f44336;
+}
+.addAlbumBtn{
+    background-color: rgba(0,119,255,.1); 
+    color: #07f;
+    border: 2px solid #07f;
+}

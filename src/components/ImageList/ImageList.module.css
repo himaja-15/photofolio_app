@@ -1,0 +1,81 @@
+
+/* button contaienr */
+.btnContainer{
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* serach bar withing button container */
+.btnContainer input{
+    width: 50%;
+}
+.inputBox{
+    margin-top: 20px;
+    width: 25%;
+    /* margin: 0 2%; */
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    border: none;
+}
+.inputBox:hover{
+    border: none;
+}
+/* buttons */
+.btn{
+    /* width: 90px;
+    height: 31px;
+    color: white; */
+    margin-top: 10px;
+    float: right;
+    height: 31px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* back button */
+.backbtn{
+    float: left;
+    background-color: white;
+    /* background-image: url("../images/back.png"); */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    /* background-color: rgba(255,19,0,.1); 
+    color: #f44336;
+    border: 2px solid #f44336; */
+}
+.backbtn img {
+    height: 20px;
+    width: 20px;
+}
+
+/* add image button */
+.addBtn{
+    float: right;
+    /* background-color: #f44336; */
+    background-color: rgba(0,119,255,.1); 
+    color: #07f;
+    border: 2px solid #07f;
+}
+.cancelBtn{
+    background-color: rgba(255,19,0,.1); 
+    color: #f44336;
+    border: 2px solid #f44336;
+    float: right;
+}
+
+
+/* imagelist containing all the image cards */
+.imageList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
